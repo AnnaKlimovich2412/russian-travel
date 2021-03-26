@@ -8,5 +8,12 @@
     color: #FFFFFF;
     margin:0;
     margin-bottom: 32px;
-    width: 720px;
+    max-width: 720px;
+}
+
+@media (max-width: 320px) {
+    .lead__title {
+        width: 288px;
+        font-size: 40px;
+    }
 }
