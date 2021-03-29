@@ -1,4 +1,13 @@
 .header__lang_RU {
-    text-decoration-line: underline;
+    text-decoration-line: none;
     margin-right: 18px;
+}
+.header__lang_RU:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    right: 50px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
 }
