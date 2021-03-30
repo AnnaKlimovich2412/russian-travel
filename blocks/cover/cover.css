@@ -1,26 +1,25 @@
 .cover {
+    font-family: Inter,Arial,sans-serif;
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
+    margin: 93px 48px 92px;
 }
-@media (min-width: 320px) {
-    .cover {
-        margin: 66px 0 64px;
-    }
-}
-@media (min-width: 768px) {
-    .cover {
-        margin: 90px 0 88px;
-    }
-}
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .cover {
         margin: 92px 0 92px;
     }
 }
-@media (min-width: 1280px) {
+@media (max-width: 768px) {
     .cover {
-        margin: 93px 48px 92px;
+        margin: 90px 0 88px;
     }
 }
+@media (max-width: 320px) {
+    .cover {
+        margin: 66px 0 64px;
+    }
+}
+
+

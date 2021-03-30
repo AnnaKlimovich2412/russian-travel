@@ -2,24 +2,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 91px 190px 93px 106px;
 }
-@media (min-width: 320px) {
-    .places {
-        margin: 64px 0 66px;
-    }
-}
-@media (min-width: 768px) {
-    .places {
-        margin: 88px 24px 90px;
-    }
-}
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .places {
         margin: 92px 48px;
     }
 }
-@media (min-width: 1280px) {
+@media (max-width: 768px) {
     .places {
-        margin: 91px 190px 93px 106px;
+        margin: 88px 24px 90px;
     }
 }
+@media (max-width: 320px) {
+    .places {
+        margin: 64px 0 66px;
+    }
+}
+
+
