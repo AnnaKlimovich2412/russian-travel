@@ -5,8 +5,8 @@
 
 /*header*/
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang/_EN/header__lang_EN.css');
-@import url('../blocks/header/__lang/_RU/header__lang_RU.css');
+@import url('../blocks/header/__lang/_en/header__lang_EN.css');
+@import url('../blocks/header/__lang/_ru/header__lang_RU.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang/header__lang.css');
 @import url('../blocks/header/__logo/header__logo.css');
