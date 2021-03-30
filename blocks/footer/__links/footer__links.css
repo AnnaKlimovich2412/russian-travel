@@ -4,4 +4,13 @@
     padding: 0;
     text-decoration: none;
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 320px) {
+    .footer__links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }

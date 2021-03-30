@@ -1,4 +1,30 @@
 .lead__img {
-    height: 615px;
-    width: 984px;
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    .lead__img {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+@media (min-width: 768px) {
+    .lead__img {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+@media (min-width: 1024px) {
+    .lead__img {
+        margin-left: 48px;
+        margin-right: 48px;
+        width: calc(100% - 96px);
+    }
+}
+@media (min-width: 1280px) {
+    .lead__img {
+        margin-left: 148px;
+        margin-right: 148px;
+        width: calc(100% - 296px);
+    }
 }
