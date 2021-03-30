@@ -8,6 +8,33 @@
     color: #FFFFFF;
     margin: 0;
     position: absolute;
-    top:429px;
+    top:57%;
     z-index: 4;
+    width: 28%;
+}
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        top: 57%;
+        width: 36%;
+    }
+}
+@media (max-width: 950px) {
+    .cover__subtitle {
+        top: 63%;
+    }
+}
+@media (max-width: 768px) {
+    .cover__subtitle {
+        top: 63%;
+        width: 46%;
+    }
+}
+@media (max-width: 480px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        top:61%;
+        width: 83%;
+    }
 }
