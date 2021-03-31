@@ -1,11 +1,7 @@
 .cover {
-    font-family: Inter,Arial,sans-serif;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    margin: 93px 48px 92px;
+    margin: 0 auto;
 }
+
 @media (max-width: 1024px) {
     .cover {
         margin: 92px 0 92px;
@@ -21,5 +17,4 @@
         margin: 66px 0 64px;
     }
 }
-
 
