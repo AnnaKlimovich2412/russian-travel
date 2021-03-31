@@ -1,7 +1,7 @@
 .cover__link {
     position: relative;
     text-decoration: none;
-    padding: 245px 365px;
+    padding: 20.7% 26%;
     background-image: url("../../../images/cover-trains.jpg");
     background-size: 100% 100%;
     z-index: 1;
@@ -28,16 +28,16 @@
 
 @media (max-width: 1024px) {
     .cover__link {
-        padding: 195px 259px;
+        padding: 19% 22.7%;
     }
 }
 @media (max-width: 768px) {
     .cover__link {
-        padding: 115px 193px;
+        padding: 15% 13.5%;
     }
 }
 @media (max-width: 480px) {
     .cover__link {
-        padding: 33px 33px;
+        padding: 10.3% 5%;
     }
 }
