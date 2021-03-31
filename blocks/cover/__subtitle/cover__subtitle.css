@@ -6,7 +6,7 @@
     color: #FFFFFF;
     max-height: 66px;
     text-align: center;
-    width: 68%
+    width: 68%;
 }
 @media (max-width: 1024px) {
     .cover__subtitle {
