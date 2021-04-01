@@ -3,7 +3,7 @@
     text-decoration: none;
     padding: 245px 365px;
     background-image: url("../../../images/cover-trains.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     z-index: 1;
     display: flex;
     flex-direction: column;

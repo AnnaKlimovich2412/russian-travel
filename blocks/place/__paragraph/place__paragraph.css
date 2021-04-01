@@ -6,8 +6,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    margin: 0;
-    margin-bottom: 26px;
+  margin: 0 0 26px;
 }
 @media (max-width: 768px) {
     .place__paragraph {
