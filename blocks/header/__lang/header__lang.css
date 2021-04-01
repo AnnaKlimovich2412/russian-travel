@@ -5,5 +5,10 @@
   position: relative;
   display: flex;
   list-style-type: none;
-
+}
+.header__lang li {
+  margin-right: 18px;
+}
+.header__lang li:last-child {
+  margin-right: 0;
 }
