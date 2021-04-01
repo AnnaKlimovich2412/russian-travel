@@ -1,19 +1,21 @@
 .lead__img {
-    margin-left: 148px;
-    margin-right: 148px;
-    width: calc(100% - 296px);
+  margin-left: 148px;
+  margin-right: 148px;
+  width: calc(100% - 296px);
 }
+
 @media (max-width: 1024px) {
-    .lead__img {
-        margin-left: 48px;
-        margin-right: 48px;
-        width: calc(100% - 96px);
-    }
+  .lead__img {
+    margin-left: 48px;
+    margin-right: 48px;
+    width: calc(100% - 96px);
+  }
 }
+
 @media (max-width: 768px) {
-    .lead__img {
-        width: 100%;
-    }
+  .lead__img {
+    width: 100%;
+  }
 }
 
 
