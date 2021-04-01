@@ -4,7 +4,6 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    max-height: 152px;
     text-align: center;
 }
 
@@ -19,6 +18,5 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-height: 70px;
     }
 }

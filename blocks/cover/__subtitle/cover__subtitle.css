@@ -4,7 +4,6 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    max-height: 66px;
     text-align: center;
     width: 68%;
 }
@@ -22,7 +21,6 @@
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        max-height: 48px;
         width: 101%;
     }
 }
