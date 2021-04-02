@@ -9,6 +9,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang/header__lang.css');
 @import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__link-margin/header__link-margin.css');
 
 /*lead*/
 @import url('../blocks/lead/__title/lead__title.css');
@@ -37,7 +38,7 @@
 @import url('../blocks/place/__url-heading/place__url-heading.css');
 @import url('../blocks/place/__webcite/place__webcite.css');
 @import url('../blocks/places/places.css');
-@import url('../blocks/place/__text/place__text.css');
+@import url('../blocks/place/__paragraph-margin/place__paragraph-margin.css');
 
 /*cover*/
 @import url('../blocks/cover/cover.css');

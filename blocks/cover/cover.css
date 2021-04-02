@@ -1,23 +1,25 @@
 .cover {
-  margin: 92px auto;
+  margin: 0 auto 92px;
   max-width: 1184px;
+  display: flex;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
   .cover {
-    margin: 92px 0 92px;
+    margin: 0 0 92px;
   }
 }
 
 @media (max-width: 768px) {
   .cover {
-    margin: 90px 0 88px;
+    margin: 0 0 88px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    margin: 16px 0 64px;
+    margin: 0 0 64px;
   }
 }
 

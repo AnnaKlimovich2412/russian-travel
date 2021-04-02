@@ -1,23 +1,21 @@
 .place__paragraph {
-  grid-area: place__paragraph;
-  font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 163%;
-  color: #FFFFFF;
-  margin: 0 0 0;
+    grid-area: place__paragraph;
+    font-family: 'Inter',Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 0 0 0;
 }
-
 @media (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-  }
+    .place__paragraph {
+        font-size: 16px;
+    }
 }
-
 @media (max-width: 500px) {
-  .place__paragraph {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
+    .place__paragraph {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }
