@@ -4,6 +4,9 @@
   justify-content: center;
   margin: 92px 148px;
 }
+.places :last-child {
+  margin-bottom: 0;
+}
 @media (max-width: 1200px) {
   .places {
     margin: 92px 78px;

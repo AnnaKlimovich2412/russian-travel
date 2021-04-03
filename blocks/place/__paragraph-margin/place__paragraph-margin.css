@@ -1,9 +1,0 @@
-.place__paragraph-margin {
-  margin-bottom: 26px;
-}
-
-@media (max-width: 768px) {
-  .place__paragraph-margin {
-    margin-bottom: 25px;
-  }
-}
