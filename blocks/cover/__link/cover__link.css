@@ -28,21 +28,3 @@
 .cover__link:hover::after {
   opacity: 0.8;
 }
-
-/* @media (max-width: 1024px) {
-  .cover__link {
-    padding: 19% 22.7%;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__link {
-    padding: 16.45% 13.5%;
-  }
-}
-
-@media (max-width: 480px) {
-  .cover__link {
-    padding: 10.3% 5%;
-  }
-}
