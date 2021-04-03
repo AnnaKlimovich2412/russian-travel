@@ -1,6 +1,6 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat( auto-fit, minmax(272px, 1fr));
   margin: 0 48px 0;
   grid-gap: 16px;
 }
@@ -18,10 +18,13 @@
     grid-gap: 16px;
   }
 }
-
-@media (max-width: 320px) {
+@media (max-width: 455px) {
   .photo-grid {
     margin: 0 16px 0;
+  }
+}
+@media (max-width: 320px) {
+  .photo-grid {
     grid-gap: 12px;
   }
 }
