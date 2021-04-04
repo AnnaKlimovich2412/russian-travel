@@ -7,6 +7,9 @@
   text-align: right;
   margin-right: 18px;
 }
+.header__list-item:last-child {
+  margin: 0;
+}
 @media (max-width: 320px) {
   .header__list-item {
     font-size: 18px;

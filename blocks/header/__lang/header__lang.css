@@ -5,6 +5,4 @@
   display: flex;
   list-style-type: none;
 }
-.header__lang :last-child {
-  margin: 0;
-}
+
